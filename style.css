@@ -159,6 +159,11 @@ main .imgBox1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
 }
 main .imgBox2 {
   max-width: 170px;
@@ -169,6 +174,11 @@ main .imgBox2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
 }
 main .imgBox3 {
   max-width: 310px;
@@ -179,6 +189,11 @@ main .imgBox3 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
 }
 main .imgBox4 {
   max-width: 250px;
@@ -189,6 +204,11 @@ main .imgBox4 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
 }
 main .overly {
   width: 100%;
@@ -207,6 +227,11 @@ main .overly {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
 }
 main .overlyTitle {
   position: absolute;
@@ -421,7 +446,7 @@ main .achivmentContant_section .achivment_contant p {
 #we_do .we_do_cards {
   padding: 40px 25px;
   max-width: 300px;
-  min-height: ;
+  min-height: 400px;
   background: var(--white-color);
   box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.1);
   border-radius: 20px;
@@ -490,3 +515,349 @@ main .achivmentContant_section .achivment_contant p {
   right: 10px;
 }
 /* What We Do Section */
+
+/* Real Impact Section  */
+#realImpact {
+  background: url(images/Vector3.png), var(--white-color);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 100px 0 100px;
+}
+#realImpact .section_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+}
+#realImpact .section_title h2 {
+  color: var(--black-font);
+  font-family: var(--normal-font);
+  font-size: 38px;
+  font-weight: 700;
+}
+#realImpact .section_title p {
+  color: var(--secondary-color);
+  font-family: var(--italic-font);
+  line-height: 30px;
+  font-size: 16px;
+}
+#realImpact .realImpactContainer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 55px 0 100px;
+}
+#realImpact .realImpactContainer .left {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-start;
+}
+#realImpact .realImpactContainer .left .contant {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#realImpact .realImpactContainer .left .contant img {
+  max-width: 63px;
+}
+#realImpact .realImpactContainer .left .contant .summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#realImpact .realImpactContainer .left .contant .summary h3 {
+  font-family: var(--normal-font);
+  font-size: 25px;
+  color: var(--black-font);
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+#realImpact .realImpactContainer .left .contant .summary p {
+  font-family: var(--italic-font);
+  color: var(--secondary-color);
+  line-height: 30px;
+}
+#realImpact .realImpactContainer .right {
+  position: relative;
+}
+#realImpact .realImpactContainer .right .realImapactImges1 {
+  position: absolute;
+  max-width: 280px;
+  height: 239px;
+  left: 200px;
+  top: 0px;
+  border: 6px solid var(--white-color);
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  z-index: 1;
+}
+#realImpact .realImpactContainer .right .realImapactImges1:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+#realImpact .realImpactContainer .right .realImapactImges1 img {
+  max-width: 280px;
+  height: 239px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+#realImpact .realImpactContainer .right .realImapactImges2 {
+  position: absolute;
+  max-width: 190px;
+  height: 228px;
+  left: 50px;
+  top: -110px;
+  border: 6px solid var(--white-color);
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#realImpact .realImpactContainer .right .realImapactImges2:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+#realImpact .realImpactContainer .right .realImapactImges2 img {
+  max-width: 190px;
+  height: 228px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+#realImpact .realImpactContainer .right .realImapactImges3 {
+  position: absolute;
+  max-width: 140px;
+  height: 121px;
+  bottom: 10px;
+  left: 240px;
+  border: 6px solid var(--white-color);
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#realImpact .realImpactContainer .right .realImapactImges3:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+#realImpact .realImpactContainer .right .realImapactImges3 img {
+  max-width: 140px;
+  height: 121px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* Real Impact Section  */
+
+/* Choose Right plan section */
+#rightPlan {
+  background: var(--primary-color);
+  padding: 100px 0;
+}
+#rightPlan h2 {
+  text-align: center;
+  font-family: var(--normal-font);
+  font-size: 38px;
+  color: var(--black-font);
+}
+#rightPlan .rightPlanContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+#rightPlan .rightPlanCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  max-width: 340px;
+  padding: 40px 0;
+  background: var(--white-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.15);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+#rightPlan .rightPlanCard:hover {
+  background: var(--secondary-color);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#rightPlan .rightPlanCard:hover h4,
+#rightPlan .rightPlanCard:hover .contant p {
+  color: #fff;
+}
+#rightPlan .rightPlanCard h4 {
+  font-size: 24px;
+  font-family: var(--normal-font);
+  color: var(--black-font);
+  line-height: 36px;
+}
+#rightPlan .rightPlanCard img {
+  width: 100%;
+}
+#rightPlan .rightPlanCard .contant {
+  padding: 0 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#rightPlan .rightPlanCard .contant .price {
+  display: flex;
+  justify-content: center;
+}
+#rightPlan .rightPlanCard .contant h3 {
+  font-family: var(--normal-font);
+  color: var(--green-color);
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 50px;
+}
+#rightPlan .rightPlanCard .contant sup {
+  color: var(--green-color);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--normal-font);
+}
+#rightPlan .rightPlanCard .contant p {
+  color: var(--light-font);
+  font-family: var(--italic-font);
+  line-height: 32px;
+}
+/* Choose Right plan section */
+
+/* About us section */
+#about_us {
+  background: #f8f8ff;
+  padding: 100px 0;
+}
+#about_us h2 {
+  font-size: 38px;
+  font-family: var(--normal-font);
+  text-align: center;
+  font-weight: 700;
+}
+#about_us .aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 950px;
+  margin: auto;
+  position: relative;
+  padding: 70px 124px;
+  background: var(--white-color);
+  margin-top: 100px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.3);
+}
+#about_us .aboutUsContainer::before {
+  content: ">";
+  width: 54px;
+  height: 54px;
+  display: block;
+  background: var(--green-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  line-height: 54px;
+  font-size: 54px;
+}
+#about_us .aboutUsContainer img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+#about_us .aboutUsContainer span {
+  color: orange;
+  display: flex;
+  gap: 10px;
+}
+#about_us .aboutUsContainer > p {
+  color: var(--light-font);
+  font-family: var(--italic-font);
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+#about_us .aboutUsContainer .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#about_us .aboutUsContainer .details h4 {
+  color: var(--black-font);
+  font-size: 25px;
+  font-family: var(--normal-font);
+  font-weight: 700;
+  line-height: 40px;
+}
+#about_us .aboutUsContainer .details p {
+  color: var(--light-font);
+  font-family: var(--italic-font);
+  font-size: 12px;
+  line-height: 25px;
+}
+/* About us section */
